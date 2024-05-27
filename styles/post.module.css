@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.container > h1{
+    font-size:x-large;
+    font-weight: 600;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.container> p{
+    color: aqua;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.container>div>h2{
+    font-weight: 500;
+    color: aqua;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}

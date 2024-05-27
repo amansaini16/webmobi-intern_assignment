@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    justify-content: center;
+  }
+.box{
+  max-width: 1200px;
+  padding: 0 1rem;
+}
+.header, .footer {
+    color: black;
+    height: 40px;
+    background-color: rgb(194, 255, 254);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.footer{
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+}
